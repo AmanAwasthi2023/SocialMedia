@@ -2,6 +2,7 @@
   "name": "mern-social",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "server.js",
   "scripts": {
     "dev": "nodemon backend/server.js",
@@ -20,3 +21,22 @@
     "nodemailer": "^6.7.2"
   }
 }
+=======
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.8"
+  }
+}
+>>>>>>> f40df9c274aacb4a6783911b97e5310b4b3e2689
